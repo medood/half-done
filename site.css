@@ -1,0 +1,211 @@
+body {
+ height:972px;
+ font-family: 'Roboto', sans-serif;
+ font-style: normal;
+ font-stretch: semi-expanded;
+ font-size: 18px;
+ line-height: 1.3;
+ color: #1f363b; 
+ }
+
+header,section,aside,footer {
+margin: 0 1.5% 0px 1.5%;
+}
+
+/*SECTION
+--------------------------------------------*/
+section {
+  float: left;
+  width: 52%;
+ }
+
+
+.top {
+	overflow: hidden;
+  background: url(https://applauzrecognition.com/css/images/sign-in-background.jpg) no-repeat 0 0;
+}
+
+header{
+  background: transparent;
+}
+
+.brand{
+  margin-top: 25px;}
+
+ #tel{
+   text-align: center;
+   margin-right: 20%;
+ }
+ #tel a{
+   text-decoration: none;
+  color:#1F363B;
+}
+
+.box p{
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 0;
+  line-height: 1.4;
+  font-style:normal;
+}
+
+#boxes{
+  margin-left: 40px;
+  margin-right: 10px;
+  float: left;
+  
+}
+
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width: 33%;
+  padding: 20px;
+}
+
+#boxes h1{
+color:#1F363B;
+text-align: center;
+font-weight: 800;
+line-height: 1.3;
+font-size: 40px;
+margin-bottom: 20px;
+}
+
+#boxes .box p{
+  margin-right:-10px;
+  text-align: center;
+}
+
+/*ASIDE 
+--------------------------------------------*/
+aside {
+  float: right;
+  width: 42%;
+  background-color: #fff;
+  height:972px;
+}
+
+.first h1{
+color:#1F363B;
+text-align: center;
+font-weight: 800;
+line-height: 1.5;
+font-size: 40px;
+}
+
+
+.first h2{
+color: #00A8B0;
+text-align: center;
+font-weight:0;
+font-size: 30px;
+font-stretch: expanded;
+line-height: 1.5;
+width: 60%;
+margin:auto;
+}
+
+
+.formS{
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    height:972px;
+    padding: 50px;
+    background: #fff;
+    margin: 50px auto;
+}
+
+
+.formS input[type="email"],
+.formS input[type="password"],
+.formS select 
+{   box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 3px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px 'Roboto', sans-serif;
+    height: 45px;
+    text-transform: uppercase;
+}
+
+.formS input[type="email"]:focus,
+.formS input[type="password"]:focus,
+.formS select 
+{  border-bottom: 2px solid #00a8b0;
+
+}
+
+.formS input[type="email"]:invalid,
+.formS input[type="password"]:invalid,
+.formS select 
+{ border-bottom: 2px solid #f1c54a;
+}
+
+::placeholder {
+  color: #ddd;
+  font-size: 1.3em;
+}
+
+
+.blueB{
+    background-color: #00a8b0;
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 15px 18px;
+    text-decoration: none;
+    transition-duration: 0.4s; 
+    border: none;
+
+}
+
+.blueB:hover {
+    background-color:#f1c54a;
+    color: #fff;
+
+}
+
+.formS h5{
+  text-align: center;
+}
+
+/*FOOTER
+--------------------------------------------*/
+.footer {
+  background: #444 url(https://applauzrecognition.com/css/images/footer-robot.png) no-repeat 0 0;
+    color: #7a7a7a;
+    padding: 230px 0;
+    font-size: 15px;
+    max-height: 761px;
+    clear: both;
+    margin: 0;
+}
+
+@media screen and (max-width: 992px){
+  header #brand, .first h2,
+  .first h1, header nav, .blueB
+  header nav .navbar,.top, aside, section,
+  #boxes .box
+  {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+  .formS input[type="email"],
+  .formS input[type="password"]
+    {width: 100%;
+    margin-bottom: 5px;
+  }
+}
